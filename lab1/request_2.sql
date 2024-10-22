@@ -1,1 +1,1 @@
-SELECT * FROM cities WHERE (region = 'E' OR region = 'W') ORDER BY population;
+ SELECT * FROM cities ORDER BY name DESC LIMIT 30;
